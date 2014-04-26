@@ -39,7 +39,7 @@ body {
 #timeline-lineas .timeline-eventos .evento {
 	background: url(../images/pines.png) no-repeat;
 	width: 30px;
-	height: 25px;
+	height: 100px;
 	position: absolute;
 	cursor: pointer;
 	margin: 6;
@@ -191,7 +191,6 @@ body {
 	z-index:9999;
 	width:200px;
 	text-align:center;
-	
 	height: auto;
 	border-radius:5px;
 	font-size:11px;
@@ -366,4 +365,10 @@ margin-right: 10px;
 #cargarEventos .agregarPaises{
 	width: 100%;
 }
+
+/* ACCESIBILIDAD */
+#accesibilidad{bottom: 2px;right: 2px;float: right;position: absolute;}
+#accesibilidad-content{display: none;}
+#accesibilidad-content ul{list-style: none;}
+#accesibilidad-icon{width: 32px;float: right;}
 
